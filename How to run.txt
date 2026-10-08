@@ -1,0 +1,6 @@
+>> Run the below commands on VSC terminal after modify the tminter
+
+
+python -m pip install pyinstaller
+python -m PyInstaller --version
+python -m PyInstaller --onefile --noconsole --name WallpaperScreensaver kinter.py
